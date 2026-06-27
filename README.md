@@ -69,4 +69,4 @@ If you find our work or this repository useful, please consider giving it a star
 
 ## Contact
 
-Should you have any inquiries, feel free to reach out via email at **momin.abbas1@ibm.com** .
+Should you have any inquiries, feel free to reach out via email at momin.abbas1@ibm.com .
