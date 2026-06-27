@@ -63,8 +63,7 @@ If you find our work or this repository useful, please consider giving it a star
   author={Momin Abbas and Ali Falahati and Hossein Goli and Mohammad Mohammadi Amiri},
   journal={Transactions on Machine Learning Research},
   year={2026},
-  url={https://openreview.net/forum?id=jFjA24PBJx},
-  note={}
+  url={https://openreview.net/forum?id=jFjA24PBJx}
 }
 ```
 
