@@ -79,7 +79,7 @@ If you find our work or this repository useful, please consider giving it a star
 
 ```bibtex
 @article{abbas2026medix,
-  title={Medix: Robust Gradient Statistics for Out-of-Distribution Detection from Unlabeled Wild Data},
+  title={Medix: Out-of-Distribution Detection from Unlabeled Wild Data via Robust Gradient Statistics},
   author={Momin Abbas and Ali Falahati and Hossein Goli and Mohammad Mohammadi Amiri},
   journal={Transactions on Machine Learning Research},
   year={2026},
