@@ -1,4 +1,4 @@
-# Back to the Basics: Revisiting the Median for Out-of-Distribution Detection from Unlabeled Data
+# Medix: Robust Gradient Statistics for Out-of-Distribution Detection from Unlabeled Wild Data
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2510.06505)
 
@@ -58,8 +58,8 @@ CUDA_VISIBLE_DEVICES=0 python train_detector/main.py --dataset cifar100 --aux_ou
 If you find our work or this repository useful, please consider giving it a star ⭐ and citing our paper.
 
 ```bibtex
-@article{abbas2026back,
-  title={Back to the Basics: Revisiting the Median for Out-of-Distribution Detection from Unlabeled Data},
+@article{abbas2026medix,
+  title={Medix: Robust Gradient Statistics for Out-of-Distribution Detection from Unlabeled Wild Data},
   author={Momin Abbas and Ali Falahati and Hossein Goli and Mohammad Mohammadi Amiri},
   journal={Transactions on Machine Learning Research},
   year={2026},
