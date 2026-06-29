@@ -6,8 +6,19 @@
 <p align="center">
   <img src="assets/teaser.png" width="100%">
 </p>
-<p align="center">
-</p>
+
+
+## Overview
+
+**Medix** is a framework for out-of-distribution (OOD) detection that learns from
+*unlabeled wild data*, a realistic mixture of in-distribution (InD) and OOD samples
+collected after deployment. The core idea is a two-stage pipeline:
+
+1. **Outlier filtering.** We compute a reference gradient from labeled InD data and
+   iteratively extract candidate outliers from the wild mixture by tracking the
+   element-wise median (EWM) deviation from that reference.
+2. **Detector training.** We train a binary OOD detector on the labeled InD data
+   together with the extracted outliers.
 
 
 
@@ -45,7 +56,7 @@ Download the model checkpoints and other files by following these steps:
 ## Stage 1: Outlier filtering from wild data:
 To filter outliers from wild data for CIFAR100-SVHN as the InD-OOD pair, run the following command:
 ```
-CUDA_VISIBLE_DEVICES=0 python ood_filtering/OOD_cifar100_svhn.py"
+CUDA_VISIBLE_DEVICES=0 python ood_filtering/OOD_cifar100_svhn.py
 ```
 This will save the outlier data in `saved_data` folder. To run another InD-OOD pair, run the corresponding file from the `ood_filtering` folder. To use a different GPU on your machine, change the `0` in `CUDA_VISIBLE_DEVICES=0` to the GPU number, e.g. `CUDA_VISIBLE_DEVICES=1` if you want to use GPU 1.
 
