@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="assets/teaser.pdf" width="100%">
+  <img src="assets/teaser.png" width="100%">
 </p>
 <p align="center">
 </p>
