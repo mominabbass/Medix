@@ -2,6 +2,15 @@
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2510.06505)
 
+
+<p align="center">
+  <img src="assets/teaser.pdf" width="100%">
+</p>
+<p align="center">
+</p>
+
+
+
 ## Installation
 To setup the anaconda environment, simply run the following command:
 ```
