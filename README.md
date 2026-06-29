@@ -1,4 +1,4 @@
-# Medix: Robust Gradient Statistics for Out-of-Distribution Detection from Unlabeled Wild Data
+# Medix: Out-of-Distribution Detection from Unlabeled Wild Data via Robust Gradient Statistics
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2510.06505)
 
